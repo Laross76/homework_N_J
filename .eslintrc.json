@@ -13,9 +13,9 @@
         "sourceType": "module"
     },
     "rules": {
-  "no-multi-spaces": "error",  // Запрещает лишние пробелы
-  "space-before-function-paren": ["error", "never"]  // Пробелы перед скобками функций
-  // И другие, если нужно
+        "no-debugger": "off",  // Отключает правило для debugger
+        "no-multi-spaces": "error",  // Запрещает лишние пробелы
+        "space-before-function-paren": ["error", "never"]  // Пробелы перед скобками функций 
+    }
 }
 
-}
