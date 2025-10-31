@@ -1,0 +1,21 @@
+{
+    "root": true,
+    "env": {
+        "browser": true,
+        "es2021": true,
+        "node": true
+    },
+    "extends": [
+        "eslint:recommended"
+    ],
+    "parserOptions": {
+        "ecmaVersion": "latest",
+        "sourceType": "module"
+    },
+    "rules": {
+  "no-multi-spaces": "error",  // Запрещает лишние пробелы
+  "space-before-function-paren": ["error", "never"]  // Пробелы перед скобками функций
+  // И другие, если нужно
+}
+
+}
